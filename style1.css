@@ -1,0 +1,47 @@
+.col-lg-6 p::selection {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.col-lg-6 h1::selection {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.header p::selection {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+
+}
+
+.header h1::selection {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+
+}
+
+.col-lg-6 img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.col-lg-6 img {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container-fluid table {
+    background-color: #ffee00;
+    margin: 40px 0px;
+    color: white;
+}
+
+.container-fluid table tbody td::selection {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.container-fluid table thead th::selection {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
