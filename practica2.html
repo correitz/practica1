@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practica 2</title>
+    <link href="../bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="container">
+        <table class="table table-bordered table-condensed  table-hover">
+            <thead>
+                <tr>
+                    <th>Pais:</th>
+                    <th>Que tanto le gusta el guineo:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Estados unidos</td>
+                    <td>1/1.2 personas(96%)</td>
+                </tr>
+                <tr>
+                    <td>INDIA</td>
+                    <td>1/3 personas(86%)</td>
+                </tr>
+                <tr>
+                    <td>Ecuador</td>
+                    <td>1/4 personas(25%)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <form role="form">
+            <div class="form-group">
+                <h1>Llene esta encuesta sobre el guineo</h1>
+                <label for="nombre">Ingrese su nombre:</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="form-group">
+                <label for="clave">Ingrese su Correo:</label>
+                <input type="text" class="form-control" id="clave">
+            </div>
+            <div class="form-group">
+                <label for="comentario">Explique por que le gusta el guineo</label>
+                <textarea class="form-control" rows="5" id="comentarios"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Enviar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
