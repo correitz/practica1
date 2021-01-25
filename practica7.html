@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Practica 7</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Varias líneas en una misma fila "row"</h1>
+        <div class="row">
+            <div class="col-3 " style="background-color:rgb(255, 230, 0)">
+                <h1>aqui la columna 1 <br> aqui la linea 1</h1>
+            </div>
+            <div class="col-3" style="background-color:rgb(0, 0, 0); color: #ffffff;">
+                <h1>aqui la columna 2 <br> aqui la linea 1</h1>
+            </div>
+            <div class="w-10"></div>
+            <div class="col-3" style="background-color:#ffe600">
+                <h1>aqui la columna 1 <br>aqui la linea 2</h1>
+            </div>
+            <div class="col-3" style="background-color: rgb(0, 0, 0); color: #ffffff">
+                <h1>aqui la columna 2 <br>aqui la linea 2</h1>
+            </div>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="container">
+        <h1> Reordenar las columnas en una fila </h1>
+        <div class="row">
+            <div class="col order-3" style="background-color: #000000; color: #ffffff">
+                <h1>Prioridad 3</h1>
+            </div>
+            <div class="col order-2" style="background-color:#ffe600; color: #ffffff">
+                <h1>Prioridad 2</h1>
+            </div>
+            <div class="col order-1" style="background-color:#000000; color: #ffffff">
+                <h1>Prioridad 1</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="container">
+        <h1>Anidamiento de columnas</h1>
+        <div class="row">
+            <div class="col-lg-6" style="background-color:#ffe600">
+                <h1>Titulo de columna 1</h1>
+                <p>El Grande</p>
+            </div>
+            <div class="col-lg-6" style="background-color:#000; color: #fff;">
+                <h1>Titulo de columna 2</h1>
+                <p>El pequeno</p>
+
+                <div class="row">
+                    <div class="col-lg-6" style="background-color:#000; color: #fff">
+                        <h2>Columna 2(1)</h2>
+                        <p>El pequeno 1</p>
+                    </div>
+                    <div class="col-lg-6" style="background-color:#ffe600; color: #000000">
+                        <h2>Columna 2(2)</h2>
+                        <p>El pequeno 2</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="container">
+        <h1>Offset (desplazamiento) de columnas</h1>
+        <div class="row">
+            <div class="col-lg-4" style="background-color:#ffe600; color: #000000">
+                <h1>Uno</h1>
+            </div>
+            <div class="col-lg-4 offset-lg-4" style="background-color:#ffe600; color: #000000">
+                <h1>Dos</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4" style="background-color:#000000; color: #ffffff">
+                <h1>Tres</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4" style="background-color:#ffe600; color: #000000">
+                <h1>Cuatro</h1>
+            </div>
+            <div class="col-lg-4 offset-lg-4" style="background-color:#ffe600; color: #000000">
+                <h1>Cinco</h1>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="container">
+        <h1>table : básica</h1>
+        <table class="table" style="border: 1px #000000 solid;background-color: #ffe600; ">
+            <thead>
+                <tr>
+                    <th>Mayores productores de guineo</th>
+                    <th>Mayores consumidores de guineo</th>
+                    <th>Mayores exportadores de guineo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>India </td>
+                    <td>Estados unidos</td>
+                    <td>Ecuador</td>
+                </tr>
+                <tr>
+                    <td>República Popular China</td>
+                    <td>India</td>
+                    <td>Bélgica</td>
+                </tr>
+                <tr>
+                    <td>Indonesia</td>
+                    <td>Bélgica</td>
+                    <td>Filipinas </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+    <div class="container">
+        <h1>table : básica con color oscuro</h1>
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th>Mayores productores de guineo</th>
+                    <th>Mayores consumidores de guineo</th>
+                    <th>Mayores exportadores de guineo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>India </td>
+                    <td>Estados unidos</td>
+                    <td>Ecuador</td>
+                </tr>
+                <tr>
+                    <td>República Popular China</td>
+                    <td>India</td>
+                    <td>Bélgica</td>
+                </tr>
+                <tr>
+                    <td>Indonesia</td>
+                    <td>Bélgica</td>
+                    <td>Filipinas </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div class="container">
+        <h1>table : con filas con colores alternados</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Mayores productores de guineo</th>
+                    <th>Mayores consumidores de guineo</th>
+                    <th>Mayores exportadores de guineo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>India </td>
+                    <td>Estados unidos</td>
+                    <td>Ecuador</td>
+                </tr>
+                <tr>
+                    <td>República Popular China</td>
+                    <td>India</td>
+                    <td>Bélgica</td>
+                </tr>
+                <tr>
+                    <td>Indonesia</td>
+                    <td>Bélgica</td>
+                    <td>Filipinas </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h1>table : con borde en cada celda.</h1>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Mayores productores de guineo</th>
+                    <th>Mayores consumidores de guineo</th>
+                    <th>Mayores exportadores de guineo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>India </td>
+                    <td>Estados unidos</td>
+                    <td>Ecuador</td>
+                </tr>
+                <tr>
+                    <td>República Popular China</td>
+                    <td>India</td>
+                    <td>Bélgica</td>
+                </tr>
+                <tr>
+                    <td>Indonesia</td>
+                    <td>Bélgica</td>
+                    <td>Filipinas </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
