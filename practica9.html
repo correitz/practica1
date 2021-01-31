@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Practica 9</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #f6fa00;">
+
+    <div class="container">
+        <h1>Bienvenido @Angel!</h1>
+        <fieldset disabled>
+            <div class="form-group">
+                <label>Su nombre de usuario</label>
+                <input type="text" value="Angel Nunez" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="clave">Su Contrasena:</label>
+                <input type="password" value="Me gusta el guineo" class="form-control">
+            </div>  
+        </fieldset>
+        <form>
+            <div class="form-group">
+                <label for="control1">Seleccione Cuantos guineos va a ordenar?</label>
+                <select class="form-control form-control-lg">
+                    <option>1</option>
+                    <option selected>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group ">
+                <label for="control2">Seleccione los dias que desea comerse esos guineos</label>
+                <select multiple class="form-control form-control-sm">
+                    <option>Hoy</option>
+                    <option>Manana</option>
+                    <option selected>Siempre</option>
+                    <option>Ayer</option>
+                </select>
+
+                <label for="nombre">Escriba un texto corto de por que le gusta el guineo:</label>
+                <input type="text" class="form-control form-text">
+            </div>
+            <form class="form-inline">
+                <label for="mail" class="mr-sm-2">Correo de entrega:</label>
+                <input type="email" class="form-control mr-sm-2" disabled value="Angel@guineo.com">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input mr-sm-2" checked> Acepta términos</label>
+                </div>
+                <button class="btn-info btn-lg btn-dark">Finalizar pedido</button>
+            </form>
+
+        </form>
+    </div>
+</body>
+
+</html>
